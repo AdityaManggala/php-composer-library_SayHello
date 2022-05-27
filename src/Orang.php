@@ -7,7 +7,7 @@ class Orang
     {
     }
 
-    function sayhello(string $nama): string{
+    function sayhello(string $nama = "Tamu"): string{
         return "hai $nama, namaku $this->nama";
     }
 }
